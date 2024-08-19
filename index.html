@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Navbar with Sidebar</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light nav-color white-font">
+      <div class="container-fluid">
+        <div class="container d-flex flex-row mx-auto py-2">
+          <a class="navbar-brand" href="#">Logo</a>
+          <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+          <div class="sidebar">
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Product</a></li>
+            </ul>
+          </div>
+          <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+          </label>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Product</a>
+              </li>
+              <li class="nav-item">
+                <button class="btn custom-btn">Get Started</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- hero section start -->
+    <section class="container-fluid hero-section">
+      <div class="container">
+        <div
+          class="col-12 d-flex flex-row justify-content-between align-items-center p-0"
+        >
+          <div class="col-12 col-md-6 pl-0">
+            <h1 class="font-weight-bold">
+              Transforming <span class="span-color">Potential</span> into
+              <span class="span-color">Performance.</span>
+            </h1>
+            <p>
+              We empower individuals and organizations across corporate,
+              education, healthcare, retail, finance, technology, and beyond to
+              excel.<br />
+              Let’s explore opportunities to elevate your business or career.
+            </p>
+            <button class="col-6 col-md-4 btn custom-btn">Get Started</button>
+          </div>
+          <div class="col-12 col-md-6 d-none d-md-block p-0">
+            <img
+              class="col-12 p-0"
+              src="./images/hero-bg-4.svg"
+              alt=""
+              srcset=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero section end -->
+    <section class="container-fluid">
+      <div class="container mt-5 pb-5">
+        <h2 class="section-title">
+          Our <b class="span-color text-center"> Services</b>
+        </h2>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card card-custom">
+              <div class="service-icon">
+                <img
+                  src="./images/Mortarboard_alt_light.svg"
+                  alt="Dummy Image"
+                  class="card-image"
+                />
+              </div>
+
+              <div class="card-body card-body-custom">
+                <h5 class="card-title">Interview Preparation</h5>
+                <p class="card-text">
+                  Our membership management software provides full automation of
+                  membership renewals and payments.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card card-custom">
+              <div class="service-icon">
+                <img
+                  src="./images/Desk_alt_light.svg"
+                  alt="Dummy Image"
+                  class="card-image"
+                />
+              </div>
+              <div class="card-body card-body-custom">
+                <h5 class="card-title">Career Counseling</h5>
+                <p class="card-text">
+                  Our membership management software provides full automation of
+                  membership renewals and payments.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card card-custom">
+              <div class="service-icon">
+                <img
+                  src="./images/Roll_alt_light_light.svg"
+                  alt="Dummy Image"
+                  class="card-image"
+                />
+              </div>
+              <div class="card-body card-body-custom">
+                <h5 class="card-title">Behavioral Training</h5>
+                <p class="card-text">
+                  Our membership management software provides full automation of
+                  membership renewals and payments.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about us -->
+    <section class="container-fluid about-section">
+      <div class="container feature-section">
+        <div class="row">
+          <div class="col-md-6 feature-content">
+            <h2 class="feature-title">
+              <span class="span-color"> Who </span> we are?
+            </h2>
+            <p class="feature-description">
+              Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor,
+              augue nec tincidunt molestie, massa nunc varius arcu, at
+              scelerisque elit erat a magna. Donec quis erat at libero ultrices
+              mollis. In hac habitasse platea dictumst. Vivamus vehicula leo
+              dui, at porta nisi facilisis finibus. In euismod augue vitae nisi
+              ultricies, non aliquet urna tincidunt.
+            </p>
+            <a href="#" class="learn-more-btn">Read More</a>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="./images/man-with-chair.svg"
+              alt="Feature Image"
+              class="feature-image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- lead gen -->
+
+    <section class="container-fluid cta-section">
+      <div class="container">
+        <div class="cta-content">
+          <div class="cta-image">
+            <img src="./images/form-submit.svg" alt="CTA Image" />
+          </div>
+          <div class="cta-form">
+            <h2 class="text-center">
+              Get <span class="span-color">Started</span>
+            </h2>
+            <form action="#" method="post">
+              <div class="form-group">
+                <select id="service" name="service" required>
+                  <option value="" disabled selected>Select a service</option>
+                  <option value="interview-prep">
+                    Interview Preparation Workshops
+                  </option>
+                  <option value="career-counseling">
+                    College Tapping & Career Counseling
+                  </option>
+                  <option value="behavioral-training">
+                    Behavioral Training
+                  </option>
+                  <option value="sales-training">Sales Training</option>
+                  <option value="customized-programs">
+                    Customized Training Programs
+                  </option>
+                  <option value="quality-audits">
+                    Quality Audits & Feedback
+                  </option>
+                  <option value="mentoring">
+                    Mentoring for Small Businesses
+                  </option>
+                  <option value="business-consulting">
+                    Business Improvement Consulting
+                  </option>
+                  <option value="bq-analysis">BQ Analysis</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  placeholder="Enter Your Name."
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  required
+                  placeholder="Enter Your Phone Number."
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder="Enter Your Email"
+                />
+              </div>
+              <div
+                class="col-12 d-flex justify-content-center align-items-center"
+              >
+                <button type="submit" class="cta-button">Submit</button>
+              </div>
+            </form>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid stats-section">
+      <div class="container mt-5">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-md-5 mb-4 mb-md-0">
+            <h2 class="stats-text">
+              Helping a local
+              <span class="span-color">business reinvent itself</span>
+            </h2>
+            <p class="stats-description">
+              We reached here with our hard work and dedication
+            </p>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-6 col-sm-6 mb-4">
+                <div class="stats-item">
+                  <img
+                    src="https://via.placeholder.com/40"
+                    alt="Dummy Icon"
+                    class="stats-icon"
+                  />
+                  <span class="stats-number">2,245,341</span>
+                </div>
+                <div class="stats-label">Members</div>
+              </div>
+              <div class="col-6 col-sm-6 mb-4">
+                <div class="stats-item">
+                  <img
+                    src="https://via.placeholder.com/40"
+                    alt="Dummy Icon"
+                    class="stats-icon"
+                  />
+                  <span class="stats-number">46,328</span>
+                </div>
+                <div class="stats-label">Clubs</div>
+              </div>
+              <div class="col-6 col-sm-6 mb-4">
+                <div class="stats-item">
+                  <img
+                    src="https://via.placeholder.com/40"
+                    alt="Dummy Icon"
+                    class="stats-icon"
+                  />
+                  <span class="stats-number">828,867</span>
+                </div>
+                <div class="stats-label">Event Bookings</div>
+              </div>
+              <div class="col-6 col-sm-6 mb-4">
+                <div class="stats-item">
+                  <img
+                    src="https://via.placeholder.com/40"
+                    alt="Dummy Icon"
+                    class="stats-icon"
+                  />
+                  <span class="stats-number">1,926,436</span>
+                </div>
+                <div class="stats-label">Payments</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- blog section start -->
+    <section class="container-fluid blog-section">
+      <div class="container">
+        <h2 class="blog-title mb-4"><span class="span-color"> Caring is the </span> new marketing</h2>
+        <p class="blog-description">
+          The Nextcent blog is the best place to read about the latest
+          membership insights, trends, and more. See who's joining the
+          community, read about how our community is increasing their membership
+          income, and lot's more.
+        </p>
+
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="blog-card">
+              <img
+                src="./images/one.jpg"
+                alt="Blog Image 1"
+                class="blog-image"
+              />
+              <div class="blog-content">
+                <h5>Creating Streamlined Safeguarding Processes with OneRen</h5>
+                <a href="#">Readmore →</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="blog-card">
+              <img
+                src="./images/two.jpg"
+                alt="Blog Image 2"
+                class="blog-image"
+              />
+              <div class="blog-content">
+                <h5>
+                  What are your safeguarding responsibilities and how can you
+                  manage them?
+                </h5>
+                <a href="#">Readmore →</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="blog-card">
+              <img
+                src="./images/three.jpg"
+                alt="Blog Image 3"
+                class="blog-image"
+              />
+              <div class="blog-content">
+                <h5>Revamping the Membership Model with Triathlon Australia</h5>
+                <a href="#">Readmore →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer mt-md-5">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img src="logo.png" alt="Company Logo" />
+          </div>
+          <div class="footer-links">
+            <div class="footer-column">
+              <h3>Product</h3>
+              <ul>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Book a demo</a></li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h3>Explore</h3>
+              <ul>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h3>Company</h3>
+              <ul>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Your Company. All rights reserved.</p>
+          <div class="footer-policies">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+          </div>
+          <div class="footer-social">
+            <a href="#"><img src="youtube-icon.png" alt="YouTube" /></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter" /></a>
+            <a href="#"><img src="linkedin-icon.png" alt="LinkedIn" /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- <script>
+      // Disable right-click on the entire document
+      document.addEventListener("contextmenu", function (event) {
+        event.preventDefault();
+      });
+
+      // Disable Ctrl+U, F12, and other developer tool shortcuts
+      document.addEventListener("keydown", function (event) {
+        // Disable F12 key
+        if (event.key === "F12") {
+          event.preventDefault();
+        }
+
+        // Disable Ctrl+U
+        if (event.ctrlKey && event.key === "u") {
+          event.preventDefault();
+        }
+
+        // Disable Ctrl+Shift+I (Inspect Element)
+        if (event.ctrlKey && event.shiftKey && event.key === "I") {
+          event.preventDefault();
+        }
+
+        // Disable Ctrl+Shift+J (Console)
+        if (event.ctrlKey && event.shiftKey && event.key === "J") {
+          event.preventDefault();
+        }
+
+        // Disable Ctrl+Shift+C (Inspect Element)
+        if (event.ctrlKey && event.shiftKey && event.key === "C") {
+          event.preventDefault();
+        }
+
+        // Disable Ctrl+S (Save page)
+        if (event.ctrlKey && event.key === "s") {
+          event.preventDefault();
+        }
+      });
+    </script> -->
+  </body>
+</html>

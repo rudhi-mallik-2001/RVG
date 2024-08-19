@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="container-fluid cta-section">
+        <div class="container">
+          <div class="cta-content">
+            <div class="cta-image">
+              <img src="./images/form-submit.svg" alt="CTA Image" />
+            </div>
+            <div class="cta-form">
+              <h2 class="text-center">
+                Get <span class="span-color">Started</span>
+              </h2>
+              <form action="#" method="post">
+                <div class="form-group">
+                  <select id="service" name="service" required>
+                    <option value="" disabled selected>Select a service</option>
+                    <option value="interview-prep">
+                      Interview Preparation Workshops
+                    </option>
+                    <option value="career-counseling">
+                      College Tapping & Career Counseling
+                    </option>
+                    <option value="behavioral-training">
+                      Behavioral Training
+                    </option>
+                    <option value="sales-training">Sales Training</option>
+                    <option value="customized-programs">
+                      Customized Training Programs
+                    </option>
+                    <option value="quality-audits">
+                      Quality Audits & Feedback
+                    </option>
+                    <option value="mentoring">
+                      Mentoring for Small Businesses
+                    </option>
+                    <option value="business-consulting">
+                      Business Improvement Consulting
+                    </option>
+                    <option value="bq-analysis">BQ Analysis</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                    placeholder="Enter Your Name."
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    required
+                    placeholder="Enter Your Phone Number."
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                    placeholder="Enter Your Email"
+                  />
+                </div>
+                <div
+                  class="col-12 d-flex justify-content-center align-items-center"
+                >
+                  <button type="submit" class="cta-button">Submit</button>
+                </div>
+              </form>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+</body>
+</html>
